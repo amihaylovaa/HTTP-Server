@@ -1,0 +1,1 @@
+void DeleteRequest(int, char*, char*);

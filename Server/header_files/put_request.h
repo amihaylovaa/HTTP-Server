@@ -1,0 +1,1 @@
+void PutRequest(int, char*, char*);

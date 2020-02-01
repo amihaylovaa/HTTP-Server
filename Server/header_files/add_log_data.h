@@ -1,0 +1,1 @@
+void AddLogData(char*, char*);

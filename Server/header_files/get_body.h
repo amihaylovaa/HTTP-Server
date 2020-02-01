@@ -1,0 +1,1 @@
+void GetBody(char*, char*);
