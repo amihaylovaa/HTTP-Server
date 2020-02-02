@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 #include <winsock.h>
-#include  "header_files/put_request.h"
-#include "header_files/post_request.h"
-#include "header_files/get_Request.h"
-#include "header_files/delete_request.h"
-#include "header_files/macros.h"
-#include "header_files/get_body.h"
+#include "include/put_request.h"
+#include "include/post_request.h"
+#include "include/get_Request.h"
+#include "include/delete_request.h"
+#include "include/macros.h"
+#include "include/get_body.h"
 
 
 void PostRequest(int ConnectedSocketDescriptor, char* request, char* response)

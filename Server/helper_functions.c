@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-#include "header_files/add_log_data.h"
-#include "header_files/get_body.h"
-#include "header_files/macros.h"
-#include "header_files/get_http_request_method.h"
+#include "include/add_log_data.h"
+#include "include/get_body.h"
+#include "include/macros.h"
+#include "include/get_http_request_method.h"
 
 // get http request method from response
 void GetHTTPRequestMethod(char* request, char* RequestMethod)

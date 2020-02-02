@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 #include <winsock.h>
-#include "header_files/get_http_request_method.h"
-#include "header_files/macros.h"
-#include "header_files/get_body.h"
-#include "header_files/get_request.h"
-#include "header_files/post_request.h"
-#include "header_files/put_request.h"
-#include "header_files/delete_request.h"
-#include "header_files/add_log_data.h"
+#include "include/get_http_request_method.h"
+#include "include/macros.h"
+#include "include/get_body.h"
+#include "include/get_request.h"
+#include "include/post_request.h"
+#include "include/put_request.h"
+#include "include/delete_request.h"
+#include "include/add_log_data.h"
 
 #pragma comment(lib,"ws2_32.lib")
 
