@@ -13,17 +13,17 @@ Responses :
  - 404 Not Found - if the file does not exist
  - 200 OK - if file exists and its content is returned
 
-POST - creates an html file file with content received from request's body as raw text
+POST - creates an html file with content received from request's body as raw text
 -
 Responses :
 *  413 Request Entity Too Large - if the body is too large to be processed 
 * 204 No Content - if body is empty
-* 200 OK  -  successfully added content to the file.
+* 200 OK  -  successfully added content to the file 
 
 PUT - updates file's content or create a file with a content received from request's body as raw text
 -
 Responses:
-*  413 Request Entity Too Large - if the body is too large to be processed t
+*  413 Request Entity Too Large - if the body is too large to be processed
 * 204 No Content - if body is empty
 * 200 OK - successfully added content to the file or a created new one.
 
